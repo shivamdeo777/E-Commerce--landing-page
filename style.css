@@ -1,0 +1,167 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+:root {
+  --primary-color: #008ecc;
+  --primary-font-family: "hanken grotesk";
+}
+
+i {
+  color: #008ecc;
+}
+
+#navbar .top-nav {
+  background-color: #f5f5f5;
+  font-family: var(--primary-font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #666666;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px;
+}
+#navbar .top-nav-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+#navbar .top-nav-right i {
+  color: var(--primary-color);
+}
+
+#navbar .bottom-nav {
+  background-color: #ffffff;
+  color: #008ecc;
+  padding: 10px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ededed;
+}
+
+#navbar .logo {
+  font-family: var(--primary-font-family);
+  font-size: 36px;
+  font-weight: 800;
+}
+
+#navbar .megamart {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#navbar .bi-list {
+  font-size: 36px;
+}
+
+#navbar .search-bar {
+  background-color: #f3f9fb;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  gap: 15px;
+}
+
+#navbar .search {
+  color: #008ecc;
+}
+
+#navbar .search-bar {
+  color: #666666;
+}
+
+#navbar .sign {
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+#navbar .sign-up {
+  color: #666666;
+  border-right: 1px solid #666666;
+}
+
+#navbar .bi-person-fill {
+  font-size: 24px;
+}
+#navbar .cart {
+  color: #666666;
+}
+
+#navbar .bi-cart-check {
+  font-size: 24px;
+}
+
+#navbar .last-nav {
+  padding: 20px 100px;
+  border-bottom: 1px solid #ededed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-1 select {
+  font-family: var(--primary-font-family);
+  font-weight: 500;
+  font-size: 14px;
+  color: #222222;
+  padding: 9px 14px;
+  border-radius: 18px;
+  background-color: #f3f9fb;
+}
+
+.list-1 select:hover {
+  background-color: #008ecc;
+  color: #ffffff;
+}
+
+/* ####### HERO SECTION #####  */
+/* ####### HERO SECTION #####  */
+/* ####### HERO SECTION #####  */
+/* ####### HERO SECTION #####  */
+/* ####### HERO SECTION #####  */
+
+#hero-section {
+  padding: 20px 100px;
+}
+
+#hero-section img {
+  object-fit: cover;
+  /* width: 100%; */
+}
+
+/* ######### SMART PHONE ######  */
+/* ######### SMART PHONE ######  */
+/* ######### SMART PHONE ######  */
+/* ######### SMART PHONE ######  */
+/* ######### SMART PHONE ######  */
+/* ######### SMART PHONE ######  */
+/* ######### SMART PHONE ######  */
+/* ######### SMART PHONE ######  */
+/* ######### SMART PHONE ######  */
+
+#smart-phone {
+  padding: 10px 100px;
+}
+
+span {
+  font-family: var(--primary-font-family);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+#smart-phone h2 {
+  text-decoration: underline var(--primary-color);
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  font-size: 24px;
+}
