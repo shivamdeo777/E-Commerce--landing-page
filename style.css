@@ -227,11 +227,16 @@ i {
 }
 
 #smart-phone h2 {
-  text-decoration: underline var(--primary-color);
+  text-decoration: underline white;
   font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 24px;
   padding: 20px 0;
+  text-underline-offset: 10px;
+  margin-top: 50px;
+}
+#smart-phone h2:hover {
+  text-decoration: underline #008ecc;
 }
 
 #smart-phone .heading {
@@ -361,7 +366,7 @@ i {
 /* ########## TOP CATOGRIES #########  */
 
 #catogries {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 #catogries .heading {
@@ -370,6 +375,7 @@ i {
   align-items: center;
   margin-bottom: 50px;
   text-decoration: underline transparent;
+  margin-bottom: 50px;
 }
 #catogries .heading :hover {
   text-decoration: underline var(--primary-color);
@@ -427,5 +433,213 @@ i {
   #catogries .gallery-main {
     margin-left: 50px;
     padding: 20px;
+  }
+}
+
+/* ########## ESSENTIAL SECTION ######  */
+/* ########## ESSENTIAL SECTION ######  */
+/* ########## ESSENTIAL SECTION ######  */
+/* ########## ESSENTIAL SECTION ######  */
+/* ########## ESSENTIAL SECTION ######  */
+/* ########## ESSENTIAL SECTION ######  */
+
+#essential {
+  margin: 50px 0px;
+}
+#essential .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--primary-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#essential h2 {
+  font-family: var(--primary-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  color: #222222;
+  text-align: center;
+}
+
+#essential p {
+  font-family: var(--primary-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  color: #666666;
+  text-align: center;
+}
+#essential .list-item {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0px;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+
+#essential img {
+  height: 150px;
+  width: 200px;
+  object-fit: cover;
+  background-color: #f5f5f5;
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 10px;
+}
+#essential .list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+#essential img:hover {
+  border: 2px solid var(--primary-color);
+  height: 150px;
+  width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  #essential .list {
+    justify-content: center;
+    align-items: center;
+  }
+  #essential .heading {
+    justify-content: center;
+    text-align: center;
+    font-size: 34px;
+  }
+}
+
+/* ######### FOOTER ########  */
+/* ######### FOOTER ########  */
+/* ######### FOOTER ########  */
+/* ######### FOOTER ########  */
+
+#footer {
+  padding: 10px 100px;
+  background-color: #008ecc;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: first baseline;
+}
+
+#footer .nav-logo {
+  font-family: var(--primary-font-family);
+  font-size: 30px;
+  font-weight: 800;
+  color: #f5f5f5;
+  margin-bottom: 20px;
+}
+
+.bi-whatsapp {
+  color: #ededed;
+}
+.watsapp h4 {
+  color: #ededed;
+}
+#footer .contact {
+  padding: 15px 0px;
+  text-indent: 10px;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ededed;
+}
+
+#footer .bi-telephone-plus {
+  color: #ededed;
+}
+
+#footer .call {
+  font-family: var(--primary-font-family);
+}
+
+.download h4 {
+  color: #ededed;
+  font-size: 16px;
+  font-family: var(--primary-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+#footer .second h4 {
+  font-family: var(--primary-font-family);
+  font-size: 24px;
+  font-weight: 700;
+  color: #ededed;
+  text-decoration: underline var(--primary-color);
+  text-underline-offset: 10px;
+}
+#footer .second h4:hover {
+  text-decoration: underline white;
+  color: white;
+}
+#footer .second li {
+  cursor: pointer;
+  gap: 10px;
+  padding: 10px 0px;
+  font-family: var(--primary-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  color: #ededed;
+  text-decoration: underline var(--primary-color);
+  text-underline-offset: 5px;
+}
+
+#footer .second li:hover {
+  text-decoration: underline white;
+  color: white;
+}
+#footer .third h4 {
+  cursor: pointer;
+  font-family: var(--primary-font-family);
+  font-size: 24px;
+  font-weight: 700;
+  color: #ededed;
+  text-decoration: underline var(--primary-color);
+  text-underline-offset: 10px;
+}
+#footer .third h4:hover {
+  text-decoration: underline white;
+  color: white;
+}
+#footer .third li {
+  cursor: pointer;
+  gap: 10px;
+  padding: 10px 0px;
+  font-family: var(--primary-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  color: #ededed;
+  text-decoration: underline var(--primary-color);
+  text-underline-offset: 5px;
+}
+#footer .third li:hover {
+  text-decoration: underline white;
+  color: white;
+}
+.bottom {
+  border-top: 2px solid #05abf3;
+  background-color: #008ecc;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-family: var(--primary-font-family);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+@media screen and(max-width:768px) {
+  #footer {
+    margin: 0%;
   }
 }
